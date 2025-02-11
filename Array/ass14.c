@@ -15,6 +15,8 @@ int main (void)
     int i, j, k;
     int insert, pos;
 
+    /*Enter element from user*/
+
     for (i = 0; i < n; i++)
     {
         printf("Element %d: ", i);
@@ -26,7 +28,7 @@ int main (void)
     {
         printf("%d ", arr[i]);
     }
-    
+
     printf("\nEnter position of inserted element ");
     printf("\nInserted element: ");
     scanf("%d", &insert);
@@ -38,6 +40,8 @@ int main (void)
     {
         arr[i] = arr[i-1];
     }
+    /*position need to be insterted*/
+
     arr[pos] = insert;
     for (i = 0; i <= n; i++)
     {
@@ -45,5 +49,3 @@ int main (void)
     }
     return 0;
 }
-
-
