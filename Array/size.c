@@ -3,12 +3,12 @@
 int main (void)
 {
     int size[5];
-    int i;
+    int i = 0;
     int max_index = 0;
 
-    for (i = 0; i <= 5; i++)
+    for (i = i+1; i <= 5; i++)
     {
-        printf("element %d: ", i+1);
+        printf("element %d: ", i);
         scanf("%d", &size[i]);
     }
     for (i = 0; i <= 5; i++)
