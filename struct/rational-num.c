@@ -40,7 +40,7 @@ int main (void)
     min = smaller(num1, num2);
     max = bigger(num1, num2);
 
-    printf("min = %d/%d\n", min.a, min.b); 
+    printf("min = %d/%d\n", min.a, min.b);
     printf("max = %d/%d\n", max.a, max.b);
 
     if (equal_or_not(num1, num2))
@@ -136,3 +136,5 @@ float equal_or_not(Rational n1, Rational n2)
     }
     return equal;
 }
+
+/*Need to be reviewed*/
